@@ -1,0 +1,33 @@
+.conatiner_menu-title{
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+    /* margin: 30px 50px 0 50px; */
+    margin: 0 50px 0 50px;
+}
+.conatiner_menu-title > h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 135px;
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .conatiner_menu-title{
+        margin: 0 10px 0 10px;
+    }
+    .conatiner_menu-title > h1{
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 425px){
+    .conatiner_menu-title > h1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 375px){
+    .conatiner_menu-title > h1{
+        font-size: 45px;
+    }
+}

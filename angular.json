@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-app2",
+            "outputPath": "dist/challenge-project-dio-01-angular-developer",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -91,5 +91,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b470714a-dc82-45aa-92ba-46b9c03ca628"
   }
 }

@@ -1,0 +1,21 @@
+*{
+    margin: 50px;
+}
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    /* margin: 50px 0 50px 0; */
+    gap: 5rem;
+}
+
+@media screen and (max-width: 768px){
+    .articles{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    *{
+        margin: 10px;
+    }
+}
